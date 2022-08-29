@@ -34,13 +34,13 @@ $new_paragraph_length = strlen($new_paragraph);
 <body>
   <ul>
     <li><strong>Paragrafo:</strong></li>
-    <li><?= $paragraph ?></li>
+    <li><?php echo $paragraph ?></li>
     <li><strong>Lunghezza:</strong></li>
-    <li><?= $paragraph_length ?></li>
+    <li><?php echo $paragraph_length ?></li>
     <li><strong>Nuovo Paragrafo:</strong></li>
-    <li><?= $new_paragraph ?></li>
+    <li><?php echo $new_paragraph ?></li>
     <li><strong>Nuova Lunghezza:</strong></li>
-    <li><?= $new_paragraph_length ?></li>
+    <li><?php echo $new_paragraph_length ?></li>
   </ul>
 </body>
 </html>
